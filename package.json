@@ -1,0 +1,16 @@
+{
+  "name": "isometricgame",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Thiago Souza",
+  "license": "ISC",
+  "description": "The mistycal game.",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}

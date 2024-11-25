@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(12, 12, 91);
+
+}
+#game{
+    width: 1000px;
+  
+}
+#screen{
+    width: 800px;
+    height: 800px;
+    border:1px solid #fff;
+    background-color:black;
+    float:left;
+}
+
+#caixa_de_ferramenta{
+    float:left;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#caixa_de_ferramenta .ferramentas{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border:1px solid #fff;
+    align-items: center;
+    color: #cecece;
+    cursor: pointer;
+    opacity: 0.6;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#caixa_de_ferramenta .ferramentas:hover{
+    opacity: 1;
+}
